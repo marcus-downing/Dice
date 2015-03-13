@@ -13,13 +13,14 @@ An *expression* is a single string (assumed to be UTF-8) that describes either:
 
 An expression can be *executed*, which means rolling dice, collapsing control structures and ultimately producing a result. Executing an expression is *idempotent*: executing the result again will only produce the same result.
 
-The specification is divided into three profiles, each a subset of the next:
+The specification is divided into four profiles, of expanding scope:
 
 - Profile 1: Value expressions
 - Profile 2: Expressions with dice
-- Profile 3: Expressions with programming constructs
+- Profile 3: Programs
+- Profile 4: Interactive programs
 
-For most purposes, profile 2 is what's needed
+For most purposes, profile 2 is what's needed. It provides a rich.
 
 
 # Profile 1: Value Expressions
